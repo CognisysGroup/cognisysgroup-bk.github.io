@@ -1,6 +1,6 @@
 ---
 title: Combining Indirect Dynamic Syscalls and API Hashing
-author: AHLA
+author: saad_ahla
 date: 2023-07-13 11:40:00 +0800
 categories: [Blogging, Tutorial]
 tags: [red team]
