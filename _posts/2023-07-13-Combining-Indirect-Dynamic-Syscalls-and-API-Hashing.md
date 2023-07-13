@@ -473,6 +473,7 @@ In this way, we will bypass EDR hooks, and the EDR is no more monitor our User l
 
 ### References :
 
+[https://www.amazon.co.uk/Windows-Kernel-Programming-Pavel-Yosifovich/dp/1977593372](https://www.amazon.co.uk/Windows-Kernel-Programming-Pavel-Yosifovich/dp/1977593372)
 [https://github.com/am0nsec/HellsGate/tree/master](https://github.com/am0nsec/HellsGate/tree/master)  
 [https://cocomelonc.github.io/tutorial/2022/04/02/malware-injection-18.html](https://cocomelonc.github.io/tutorial/2022/04/02/malware-injection-18.html)    
 [https://blog.sektor7.net/#!res/2021/halosgate.md](https://blog.sektor7.net/#!res/2021/halosgate.md)  
