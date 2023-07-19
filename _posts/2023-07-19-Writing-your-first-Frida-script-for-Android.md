@@ -74,6 +74,7 @@ To install the application, you can either drag and drop the APK into the emulat
 As seen above, there are two functionalities but both of them aren't accessible due to the restrictions.
 
 ![image](https://github.com/CognisysGroup/cognisysgroup.github.io/assets/25560539/8d2c07fd-bc92-4bd9-b1de-e0bf8d1e41b2)
+
 ![image](https://github.com/CognisysGroup/cognisysgroup.github.io/assets/25560539/21dc8c3c-4ef7-4d17-bec6-b7c2208b1e95)
 
 Let's decompile the APK and have a look at its code to write a Frida script in order to bypass these restrictions.
@@ -180,8 +181,8 @@ Thank you for taking the time to read this blog. If you have any queries, ideas 
 
 ## References
 
-- https://developer.android.com/tools/adb
-- https://frida.re/docs/android/
-- https://github.com/skylot/jadx
-- https://developer.android.com/guide/topics/manifest/manifest-intro
-- https://frida.re/docs/javascript-api/
+- [https://developer.android.com/tools/adb](https://developer.android.com/tools/adb)
+- [https://frida.re/docs/android/](https://frida.re/docs/android/)
+- [https://github.com/skylot/jadx](https://github.com/skylot/jadx)
+- [https://developer.android.com/guide/topics/manifest/manifest-intro](https://developer.android.com/guide/topics/manifest/manifest-intro)
+- [https://frida.re/docs/javascript-api/](https://frida.re/docs/javascript-api/)
