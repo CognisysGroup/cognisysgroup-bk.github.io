@@ -107,11 +107,11 @@ Let's start writing a Frida script to bypass this restriction. Frida provides [J
 
 ```javascript
 Java.perform(() => {
-const MainActivity = Java.use('group.cognisys.fridame.MainActivity');
-MainActivity.isAdmin.implementation = function () {
-console.log("Hooking isAdmin Method...");
-return true;
-};
+  const MainActivity = Java.use('group.cognisys.fridame.MainActivity');
+  MainActivity.isAdmin.implementation = function () {
+    console.log("Hooking isAdmin Method...");
+    return true;
+  };
 });
 ```
 
@@ -146,8 +146,8 @@ To bypass this check, we would need to change the implementation of the `isDevic
 ```javascript
 const Utils = Java.use('group.cognisys.fridame.Utils');
 Utils.isDeviceRooted.implementation = function () {
-console.log("Hooking isDeviceRooted Method...");
-return "Device is safe.";
+  console.log("Hooking isDeviceRooted Method...");
+  return "Device is safe.";
 };
 ```
 
@@ -155,17 +155,17 @@ Here, we have just passed the reference of the `Utils` class to `Java.use()` fun
 
 ```javascript
 Java.perform(() => {
-const MainActivity = Java.use('group.cognisys.fridame.MainActivity');
-MainActivity.isAdmin.implementation = function () {
-console.log("Hooking isAdmin Method...");
-return true;
-};
+  const MainActivity = Java.use('group.cognisys.fridame.MainActivity');
+  MainActivity.isAdmin.implementation = function () {
+    console.log("Hooking isAdmin Method...");
+    return true;
+  };
 
-const Utils = Java.use('group.cognisys.fridame.Utils');
-Utils.isDeviceRooted.implementation = function () {
-console.log("Hooking isDeviceRooted Method...");
-return "Device is safe.";
-};
+  const Utils = Java.use('group.cognisys.fridame.Utils');
+  Utils.isDeviceRooted.implementation = function () {
+    console.log("Hooking isDeviceRooted Method...");
+    return "Device is safe.";
+  };
 });
 ```
 
