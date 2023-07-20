@@ -18,15 +18,15 @@ timezone: Europe/London
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Cognisys Labs # the main title
+title: Cognisys Labs | Cognisys.co.uk # the main title
 
-tagline: Research & blog posts from the Cognisys Tech Team. # it will display as the sub-title
+tagline: Research & blog posts from the Cognisys Tech Team. | Cognisys.co.uk # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Welcome to the Labs.Cognisys.co.uk Technical Blog, your go-to resource for cutting-edge research, CVEs, lab write-ups, and remediation advice. Stay informed, gain insights, and fortify your cybersecurity defences.
+  Welcome to the Cognisys.co.uk Technical Blog, your go-to resource for cutting-edge research, CVEs, lab write-ups, and remediation advice. Stay informed, gain insights, and fortify your cybersecurity defences.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ""
+url: "https://labs.cognisys.group"
 
 github:
   username: CognisysGroup # change to your github username
