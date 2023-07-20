@@ -18,9 +18,9 @@ timezone: Europe/London
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Cognisys Labs | Cognisys.co.uk # the main title
+title: Cognisys Labs # the main title
 
-tagline: Research & blog posts from the Cognisys Tech Team. | Cognisys.co.uk # it will display as the sub-title
+tagline: Research & blog posts from the Cognisys Tech Team. # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   Welcome to the Cognisys.co.uk Technical Blog, your go-to resource for cutting-edge research, CVEs, lab write-ups, and remediation advice. Stay informed, gain insights, and fortify your cybersecurity defences.
