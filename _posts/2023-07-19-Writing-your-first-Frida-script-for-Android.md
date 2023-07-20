@@ -11,7 +11,7 @@ render_with_liquid: false
 
 Hi everyone, I wish you all are doing amazing. My name is Rajveersinh Parmar and I'm an Application Security Consultant at [Cognisys](https://cognisys.co.uk/), specialised in Web, Mobile and API Pentesting. In this blog, I aim to make you aware of using Frida and guide you in writing your first Frida script for Android. 
 
-In this blog, we will focus on using Frida for bypassing restrictions within an Android application. You can follow along with this blog if you're a complete beginner or someone who has used pre-built Frida scripts but want to learn about creating their own scripts. I'll give you walk through for all the topics mentioned below.
+We will focus on using Frida for bypassing restrictions within an Android application. You can follow along with this blog if you're a complete beginner or someone who has used pre-built Frida scripts but want to learn about creating their own scripts. I'll give you walk through for the topics mentioned below.
 
 - What is Frida?
 - How does Frida work?
