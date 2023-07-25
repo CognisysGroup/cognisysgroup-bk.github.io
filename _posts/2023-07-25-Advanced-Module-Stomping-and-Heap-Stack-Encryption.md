@@ -622,7 +622,7 @@ After Heaps Allocations Decryption :
 
 Here's a Demonstration Video :
 
-[![Demo](https://www.youtube.com/watch?v=Ty5pQEosFIo/0.jpg)](https://www.youtube.com/watch?v=Ty5pQEosFIo)
+[Demo](https://www.youtube.com/watch?v=Ty5pQEosFIo)
 
 
 **The code** for this article is part of a Stager Shellcode Loader implementing Advanced module stomping, Heap/Stack Encryption can be found on this **[Github](https://github.com/CognisysGroup/SweetDreams)** Repository.
