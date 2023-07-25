@@ -1,6 +1,6 @@
 ---
 title: Advanced Module Stomping & Heap/Stack Encryption
-author: Saad_AHLA
+author: saad_ahla
 date: 2023-07-25 12:40:00 +0800
 categories: [Blogging, Tutorial]
 tags: [red team]
