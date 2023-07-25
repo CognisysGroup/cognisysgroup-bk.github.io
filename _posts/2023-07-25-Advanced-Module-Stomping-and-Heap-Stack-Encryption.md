@@ -370,6 +370,7 @@ After
 
 Next, we will create a Thread that will suspend all the threads including the main thread and encrypt the stack of each thread, this is done by `EncryptDecryptThread` function, and we will pass the main thread ID as its argument.
 
+
 ```c
 void HappySleep(const char* moduleName) {
 
@@ -387,6 +388,7 @@ void HappySleep(const char* moduleName) {
 
 }
 ```
+
 
 Let's see the threads stacks encrypting part of this function. Here is a brief breakdown of the process:
 
