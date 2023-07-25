@@ -622,7 +622,6 @@ After Heaps Allocations Decryption :
 
 Here's a Demonstration Video :
 
-[Demo](https://www.youtube.com/watch?v=Ty5pQEosFIo)
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Ty5pQEosFIo/0.jpg)](https://www.youtube.com/watch?v=Ty5pQEosFIo)
 
 
