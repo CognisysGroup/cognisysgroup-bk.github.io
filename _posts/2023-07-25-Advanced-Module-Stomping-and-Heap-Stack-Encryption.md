@@ -589,6 +589,8 @@ Here's a brief explanation of what the `ResumeThreads` function does:
 4. For each thread in the snapshot, it checks if the thread belongs to the current process (by comparing its "th32OwnerProcessID" with the current process ID returned by "GetCurrentProcessId") and if its thread ID is different from the specified "TheThreadId", which is the main thread in this case.
 5. If both conditions are met, it proceeds to resume the thread by calling `OpenThread` with "THREAD_ALL_ACCESS" permissions to obtain a handle to the thread and then calls `ResumeThread` to resume the thread's execution.
 6. The function continues the loop to process the next thread in the snapshot until all threads have been examined.
+
+
 ```c
 
 void ResumeThreads(DWORD TheThreadId) {
