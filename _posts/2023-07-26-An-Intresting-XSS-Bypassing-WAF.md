@@ -78,7 +78,7 @@ In the initial stages of our investigation, I decided to URL encode the payload 
 
 In our testing, whenever we attempted to insert the below characters or words into the value of the `redirect` parameter, the application responded with a 403 forbidden error code.
 
-```Blocked Keywords
+```Blocked-Keywords
 ( ) - parenthesis
 [ ] - Square Brackets
 ' or " - Single/double quotes
