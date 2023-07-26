@@ -116,13 +116,13 @@ Using `document.write("` within the `redirect` parameter will trigger a 403 erro
 ?redirect=javascript:atob`ZG9jdW1lbnQud3JpdGUoIjxoMT5UaGlzIGlzIHRlc3Q8L2gxPiIp`
 ```
 
-The `redirect` parameter on the client side must be using `window.location.href`. The process can be illustrated as follows: 
+The above payload will exclusively display the decoded base64 string on the webpage. This happens due to client-side handling using `window.location.href` to render the decoded content. This can be illustrated as follows: 
 
 ```
 windows.location.href = "<Redirect Value>";
 ```
 
-The above payload will exclusively display the decoded base64 string on the webpage. This happens due to client-side handling using `window.location.href` to render the decoded content. You can also verify this behaviour in the console. Nonetheless, it's worth noting that the payload renders HTML tags (H1 Tag within our payload), which can potentially be exploited for XSS purposes.
+You can also verify this behaviour in the console. Nonetheless, it's worth noting that the payload renders HTML tags (H1 Tag within our payload), which can potentially be exploited for XSS purposes.
 
 ![Screenshot 2023-07-26 at 6 40 42 AM](https://github.com/CognisysGroup/cognisysgroup.github.io/assets/46415431/32477a92-f07c-4e06-bc59-3b20874595e8)
 
