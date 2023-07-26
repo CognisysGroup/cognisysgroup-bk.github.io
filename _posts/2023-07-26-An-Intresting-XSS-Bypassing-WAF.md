@@ -1,5 +1,5 @@
 ---
-title: An Interesting XSS - Bypassing WAF
+title: An Interesting XSS-Bypassing WAF
 author: Punit
 date: 2023-07-26 11:04:00 +0100
 categories: [Web Application Pentesting, Case Study, XSS]
