@@ -1,5 +1,5 @@
 ---
-title: An Interesting XSS: Bypassing WAF
+title: An Interesting XSS - Bypassing WAF
 author: Punit
 date: 2023-07-26 11:04:00 +0100
 categories: [Web Application Pentesting, Case Study, XSS]
@@ -66,7 +66,7 @@ Curiously, I tried to insert a basic XSS payload by setting the `redirect` param
 
 Most people step back from here as they think there is a WAF which is preventing the insertion of any malicious payloads but we at Cognisys step forward and try to carry out WAF bypass techniques
 
-### **WAF Analysis
+### WAF Analysis
 
 To bypass the WAF's protection, we need to understand how it was detecting and filtering malicious input. A typical WAF employs signature-based detection, pattern matching, and anomaly detection techniques. In this scenario, it was evident that the WAF was using keyword matching to recognise and block our XSS payloads.  Let's understand how did we approach the target: 
 
