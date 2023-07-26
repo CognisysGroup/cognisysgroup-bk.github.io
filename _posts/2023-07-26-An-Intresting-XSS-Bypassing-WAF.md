@@ -54,7 +54,7 @@ During one of our assessments of the application, we stumbled upon a parameter n
 
 The `redirect` parameters commonly facilitate the navigation of the web application to the `/home/dashboard` web page upon successful user authentication. As a penetration tester, I decided to test the `redirect` feature by inserting a simple URL (`http://google.com`) as its value. The purpose was to confirm whether it would indeed redirect users to the intended destination. To my discovery, the parameter successfully redirected me to `google.com`, exposing an open redirection vulnerability. 
 
-	The web application is built using Next.js, a popular framework for server-side rendering and building modern applications. Next.js provides a seamless development experience and offers several performance benefits. One essential component of a Next.js application is the `__NEXT_DATA__` JSON object. This object contains critical data used by the Next.js framework to handle server-side rendering, initial data population, and client-side navigation. It acts as a communication bridge between the server and the client, ensuring a smooth transition between pages.
+> The web application is built using Next.js, a popular framework for server-side rendering and building modern applications. Next.js provides a seamless development experience and offers several performance benefits. One essential component of a Next.js application is the `__NEXT_DATA__` JSON object. This object contains critical data used by the Next.js framework to handle server-side rendering, initial data population, and client-side navigation. It acts as a communication bridge between the server and the client, ensuring a smooth transition between pages.
 
 ![Screenshot 2023-07-25 at 3 43 32 PM](https://github.com/CognisysGroup/cognisysgroup.github.io/assets/46415431/52d9734c-c628-4481-825a-bee15252f32e)
 
@@ -78,7 +78,7 @@ In the initial stages of our investigation, I decided to URL encode the payload 
 
 In our testing, whenever we attempted to insert the below characters or words into the value of the `redirect` parameter, the application responded with a 403 forbidden error code.
 
-```
+```Blocked Keywords
 ( ) - parenthesis
 [ ] - Square Brackets
 ' or " - Single/double quotes
