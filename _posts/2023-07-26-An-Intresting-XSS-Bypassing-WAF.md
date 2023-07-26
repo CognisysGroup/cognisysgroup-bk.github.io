@@ -124,7 +124,7 @@ windows.location.href = "<Redirect Value>";
 
 You can also verify this behaviour in the console. Nonetheless, it's worth noting that the payload renders HTML tags (H1 Tag within our payload), which can potentially be exploited for XSS purposes.
 
-![Screenshot 2023-07-26 at 6 40 42 AM](https://github.com/CognisysGroup/cognisysgroup.github.io/assets/46415431/32477a92-f07c-4e06-bc59-3b20874595e8)
+![Screenshot 2023-07-26 at 6 49 32 AM](https://github.com/CognisysGroup/cognisysgroup.github.io/assets/46415431/18981fd8-11e5-47ea-9161-79597587ccba)
 
 Now, let's craft it using HTML. We used a simple `onerror` event handler attribute on the image tag to demonstrate XSS. We encoded the payload in base64 and then passed it as a value for the `redirect` parameter in the URL.
 
