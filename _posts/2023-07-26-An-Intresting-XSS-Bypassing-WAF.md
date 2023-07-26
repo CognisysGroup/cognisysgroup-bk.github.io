@@ -4,6 +4,9 @@ author: Punit
 date: 2023-07-26 11:04:00 +0100
 categories: [Web Application Pentesting, Case Study, XSS]
 tags: [application security, bypass, waf, XSS, web pentesting, javascript]
+image:
+  path: https://user-images.githubusercontent.com/46415431/256192029-9d650314-0e93-4a0d-bd9d-3517300b47b4.png
+  alt: Meta cover image
 render_with_liquid: false
 ---
 
@@ -154,7 +157,7 @@ Base64 encoded:
 
 ![MicrosoftTeams-image (30)](https://github.com/CognisysGroup/cognisysgroup.github.io/assets/46415431/6c3be662-8410-4aee-a2dc-186e030e075a)
 
-### Mitigation and Recommendations
+## Mitigation and Recommendations
 
 Our journey instilled valuable insights, inspiring us to share these best practices for mitigating XSS vulnerabilities:
 
@@ -162,7 +165,7 @@ Our journey instilled valuable insights, inspiring us to share these best practi
 2. **Output Encoding:** Implement context-aware output encoding to neutralise potential XSS payloads and ensure data is rendered safely on the client side.
 4. **Regular WAF Updates:** Keep the WAF's signature and rule set up-to-date to address evolving threats effectively and maintain optimal protection.
    
-### Conclusion
+## Conclusion
 
 Our technical expedition into the world of XSS vulnerabilities and WAF bypass techniques underscores the critical need for comprehensive web application security. As defenders, we must stay vigilant, continuously analyse and secure code, and be prepared to adapt to emerging attack vectors.
 
