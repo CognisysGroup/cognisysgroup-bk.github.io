@@ -6,12 +6,9 @@ categories: [Web Application Pentesting, Case Study, XSS]
 tags: [application security, bypass, waf, XSS, web pentesting, javascript]
 image:
   path: https://user-images.githubusercontent.com/46415431/256192029-9d650314-0e93-4a0d-bd9d-3517300b47b4.png
-  alt: Meta cover image
+  alt: 
 render_with_liquid: false
 ---
-
-
-![New Project (3)](https://github.com/CognisysGroup/cognisysgroup.github.io/assets/46415431/9d650314-0e93-4a0d-bd9d-3517300b47b4)
 
 ### Overview
 
