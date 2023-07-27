@@ -4,6 +4,9 @@ author: saad_ahla
 date: 2023-07-25 12:40:00 +0800
 categories: [Blogging, Tutorial]
 tags: [red team]
+image:
+  path: https://github.com/CognisysGroup/cognisysgroup.github.io/assets/25560539/58983b40-6ea0-4275-9ac4-aecd1dc8e482
+  alt: 
 render_with_liquid: false
 ---
 
