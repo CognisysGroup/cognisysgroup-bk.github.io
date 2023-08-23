@@ -364,7 +364,7 @@ Content-Type: application/json
     "uuid": "5a8fd90a-4e26-4043-b662-4bddda0e9539",
     "username": "Punit.Pentester",
     "email": "punit@redacted.com"
-    "isExist": True,
+    "isExists": true,
   ]
 }
 ```
