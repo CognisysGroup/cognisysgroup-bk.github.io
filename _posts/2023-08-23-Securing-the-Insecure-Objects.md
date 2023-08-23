@@ -45,7 +45,9 @@ To understand how an IDOR attack works, let's break it down step by step:
 
 Now, let's delve into a few real-world case studies that we've encountered during our routine application penetration testing assessments.
 
-![[7r7lb 1.png]]
+![IDORx](https://github.com/CognisysGroup/cognisysgroup.github.io/assets/25560539/c9859b60-7c11-4d67-bd34-b3126ec8db86)
+
+
 ## Case Study 1:  Leaking Password Reset Token?
 
 In this case study, we will explore a scenario where a critical Insecure Direct Object Reference (IDOR) vulnerability allowed us to access sensitive information including password reset tokens using a simple manipulation of usernames. This vulnerability led to unauthorised account takeover, jeopardising user accounts and their associated data.
