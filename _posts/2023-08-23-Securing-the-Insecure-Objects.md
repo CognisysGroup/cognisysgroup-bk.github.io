@@ -5,7 +5,7 @@ date: 2023-08-23 2:00:00 +0100
 categories: [Web Application Pentesting, Case Study, IDOR, BAC]
 tags: [application security, IDOR, Broken Access Control, web pentesting]
 image:
-  path: https://github.com/CognisysGroup/cognisysgroup.github.io/assets/25560539/038aa459-262d-4316-b026-8adafe661788
+  path: https://github-production-user-asset-6210df.s3.amazonaws.com/25560539/262679397-34e36773-d8fa-4f97-9866-bb81fd8cd47a.png
   alt: 
 render_with_liquid: false
 ---
