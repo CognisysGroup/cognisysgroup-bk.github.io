@@ -27,6 +27,7 @@ In this blog, we will delve into the technical aspects of IDOR and explore some 
 * Mitigation and Recommendations
 * Conclusion
 * References
+
 ## Understanding IDOR
 
 IDOR occurs when threat actors can manipulate an input parameter, usually in the form of an identifier such as an ID, to gain unauthorised access to sensitive resources or perform actions that are not supposed to be performed. The vulnerability arises when the application relies solely on user-supplied input to access data without appropriate validation and authorisation checks.
@@ -268,7 +269,7 @@ Server: cloudflare
 }
 ```
 As seen above the ***clientId*** was changed to 5646 from 5645. The response to the above request clearly shows the _**clientId**_ is updated to 5646. We have tried to login to the same account again and we identified that the account was moved to the new respective organisation and it was possible to access all the resources of that organisation.
-## Impact:
+### Impact:
 
 The vulnerability in a prominent fintech collaboration platform had significant implications. By manipulating client ID parameters in one of the platform's APIs, attackers could transfer users between organisations. This breach not only compromised data security but also disrupted the organisational structure, granting unauthorised access to sensitive documents and projects. The potential for financial losses, regulatory violations, and reputational damage underscored the urgency of stringent API security and access controls in fintech environments.
 ## Case Study 4: UUIDs are Secure? Isn't it?
