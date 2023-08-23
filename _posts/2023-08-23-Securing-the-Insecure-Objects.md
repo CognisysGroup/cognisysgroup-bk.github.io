@@ -279,7 +279,7 @@ The vulnerability in a prominent fintech collaboration platform had significant 
 
 We were conducting tests on a client management system designed for employee management and HR functions. During our evaluation of the system's profile section, we discovered a potential vulnerability related to the use of UUIDs. We can get sensitive PII data of any organisation's employees including their contracts and passports using organisations' UUIDs which increases the severity of the issue.
 
-To validate this issue, I created two organisations, OrgA and OrgB, both of which were under my control. The primary challenge lies in enumerating UUIDs from other organisations in order to exploit this vulnerability.
+To validate this issue, we created two organisations, OrgA and OrgB, both of which were under our control. The primary challenge lies in enumerating UUIDs from other organisations in order to exploit this vulnerability.
 
 **Request:**
 
