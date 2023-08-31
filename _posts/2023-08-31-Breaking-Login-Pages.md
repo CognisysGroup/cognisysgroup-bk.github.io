@@ -181,7 +181,7 @@ Content-Type: application/x-www-form-urlencoded
 username=user1&password=123456
 ```
 
-**Causes Behind the Vulnerability of Brute Forcing Common Credentials:**
+**Causes that make Brute Forcing Successful**
 
 - **Weak Passwords**: Many users choose easily guessable passwords like '123456' or 'password,' making it easier for attackers to succeed.
 - **Password Reuse**: Users often reuse passwords across multiple accounts. Attackers who obtain credentials from one source can use them to compromise other accounts.
@@ -245,9 +245,9 @@ Credential Stuffing, especially when combined with OSINT, poses a significant ch
 
 ### References:
 
-* (https://owasp.org/www-community/attacks/SQL_Injection)[https://owasp.org/www-community/attacks/SQL_Injection]
-* (https://book.hacktricks.xyz/pentesting-web/login-bypass)[https://book.hacktricks.xyz/pentesting-web/login-bypass]
-* (https://en.wikipedia.org/wiki/Open-source_intelligence)[https://en.wikipedia.org/wiki/Open-source_intelligence]
-* (https://owasp.org/www-community/attacks/Credential_stuffing)[https://owasp.org/www-community/attacks/Credential_stuffing]
-* (https://owasp.org/www-community/attacks/Brute_force_attack)[https://owasp.org/www-community/attacks/Brute_force_attack]
-* (https://owasp.org/www-project-top-ten/2017/A2_2017-Broken_Authentication)[https://owasp.org/www-project-top-ten/2017/A2_2017-Broken_Authentication]
+* [https://owasp.org/www-community/attacks/SQL_Injection](https://owasp.org/www-community/attacks/SQL_Injection)
+* [https://book.hacktricks.xyz/pentesting-web/login-bypass](https://book.hacktricks.xyz/pentesting-web/login-bypass)
+* [https://en.wikipedia.org/wiki/Open-source_intelligence](https://en.wikipedia.org/wiki/Open-source_intelligence)
+* [https://owasp.org/www-community/attacks/Credential_stuffing](https://owasp.org/www-community/attacks/Credential_stuffing)
+* [https://owasp.org/www-community/attacks/Brute_force_attack](https://owasp.org/www-community/attacks/Brute_force_attack)
+* [https://owasp.org/www-project-top-ten/2017/A2_2017-Broken_Authentication](https://owasp.org/www-project-top-ten/2017/A2_2017-Broken_Authentication)
