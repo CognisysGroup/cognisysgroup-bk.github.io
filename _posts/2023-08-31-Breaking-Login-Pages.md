@@ -5,7 +5,7 @@ date: 2023-08-31 5:00:00 +0100
 categories: [Web Application Pentesting, Authentication, ]
 tags: [Application security, Authentication, Broken Authentication, Web Pentesting]
 image:
-  path: https://github-production-user-asset-6210df.s3.amazonaws.com/25560539/262679397-34e36773-d8fa-4f97-9866-bb81fd8cd47a.png
+  path: https://github-production-user-asset-6210df.s3.amazonaws.com/25560539/264714259-fe9f7eac-1e7a-4164-b72a-f2d2483140b1.png
   alt: 
 render_with_liquid: false
 ---
@@ -151,7 +151,7 @@ Content-Type: application/x-www-form-urlencoded
 username=admin&password=password1
 ```
 
-**Credential Dictionaries - The Arsenal of Attackers**
+**Credential Dictionaries**
 
 Attackers start by assembling extensive dictionaries of commonly used passwords and usernames. These dictionaries are often curated from publicly available sources or obtained from previous data breaches. These lists may also include permutations, combinations, and variations of known passwords and usernames.
 
@@ -225,7 +225,7 @@ OSINT Information Gathering:
 - **Frequent Password Rotations**: To fortify defences against credential stuffing, organisations can implement policies requiring users to change their passwords regularly. Frequent password rotations make it challenging for attackers to use stolen credentials effectively.
 - **Multi-Factor Authentication (MFA)**: Implementing MFA adds an extra layer of security. Even if attackers acquire valid usernames and passwords, they would still need the second authentication factor to access accounts.
 
-**Causes Behind the Vulnerability of Credential Stuffing (via OSINT):**
+**Causes Behind Credential Stuffing**
 
 - **Password Reuse**: Users often reuse passwords across multiple online services. Once an attacker acquires a set of credentials from one breach, they can systematically test them across various services where users have reused the same passwords.
 - **Availability of OSINT**: OSINT sources, such as social media and publicly accessible data, provide attackers with a wealth of additional information about potential victims. This information enables attackers to craft more convincing phishing attacks and tailor their credential-stuffing attempts.
@@ -233,7 +233,7 @@ OSINT Information Gathering:
 
 **Mitigation:**
 
-To effectively mitigate the risk of Credential Stuffing (via OSINT):
+To effectively mitigate the risk of Credential Stuffing:
 
 - **User Education**: Raise user awareness about the dangers of password reuse and the importance of creating unique, strong passwords for each online service.
 - **Account Lockout and Monitoring**: Implement account lockout policies and actively monitor login patterns for unusual activities. Rapidly detect and block multiple login attempts.
@@ -245,9 +245,9 @@ Credential Stuffing, especially when combined with OSINT, poses a significant ch
 
 ### References:
 
-* https://owasp.org/www-community/attacks/SQL_Injection
-* https://book.hacktricks.xyz/pentesting-web/login-bypass
-* https://en.wikipedia.org/wiki/Open-source_intelligence
-* https://owasp.org/www-community/attacks/Credential_stuffing
-* https://owasp.org/www-community/attacks/Brute_force_attack
-* https://owasp.org/www-project-top-ten/2017/A2_2017-Broken_Authentication
+* (https://owasp.org/www-community/attacks/SQL_Injection)[https://owasp.org/www-community/attacks/SQL_Injection]
+* (https://book.hacktricks.xyz/pentesting-web/login-bypass)[https://book.hacktricks.xyz/pentesting-web/login-bypass]
+* (https://en.wikipedia.org/wiki/Open-source_intelligence)[https://en.wikipedia.org/wiki/Open-source_intelligence]
+* (https://owasp.org/www-community/attacks/Credential_stuffing)[https://owasp.org/www-community/attacks/Credential_stuffing]
+* (https://owasp.org/www-community/attacks/Brute_force_attack)[https://owasp.org/www-community/attacks/Brute_force_attack]
+* (https://owasp.org/www-project-top-ten/2017/A2_2017-Broken_Authentication)[https://owasp.org/www-project-top-ten/2017/A2_2017-Broken_Authentication]
