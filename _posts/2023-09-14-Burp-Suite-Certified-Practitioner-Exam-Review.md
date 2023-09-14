@@ -48,31 +48,31 @@ The Burp Suite Certified Practitioner exam is not for the faint of heart. It fal
 
 We've asked a few questions to our pen testers  [Punit](https://www.linkedin.com/in/0xanuj/) and [Rajveer](https://www.linkedin.com/in/rajveer67/) who shared their experience with the BSCP examination. 
 
-**Q1: Can you share your motivation behind pursuing the Burp Suite Certified Practitioner certification?**
+**Q: Can you share your motivation behind pursuing the Burp Suite Certified Practitioner certification?**
 
 *Rajveer*: Certifications ensure credibility and validate your skills and that was the real motivation behind pursuing BSCP.
 
 *Punit*: Agreed. The certification validates the skillset. It's a great way to demonstrate your expertise to clients and employers. I like challenges and this certificate was challenging so that was the motivation for me.
 
-**Q2: How did you prepare for the exam? Any recommended resources?**
+**Q: How did you prepare for the exam? Any recommended resources?**
 
 *Punit*: I started by reading reviews of other people first and it was evident that most people found it challenging. Then, I explored various online labs and videos. The PortSwigger Academy has some excellent material, including labs that mimic real-world scenarios.
 
 *Rajveer*: Yes, the PortSwigger Academy is a goldmine for anyone preparing for this certification. But I would say mindset building to make any vulnerability exploitable will help people a lot.
 
-**Q3: Can you describe the exam format and the level of difficulty?**
+**Q: Can you describe the exam format and the level of difficulty?**
 
 *Punit*: The exam consists of 2 applications with 6 challenges, 3 for each application. You have to demonstrate your ability to exploit web vulnerabilities. It's challenging but fair.
 
 *Rajveer*: I'd say the difficulty level is moderate. You need to understand web security inside out and be prepared to tackle real-world scenarios.
 
-**Q4: Any tips for those aspiring to take the Burp Suite Certified Practitioner exam?**
+**Q: Any tips for those aspiring to take the Burp Suite Certified Practitioner exam?**
 
 *Punit*: Don't rush the preparation. Take your time to understand web application security flaws. Practice in all practitioner Portswigger labs before attempting the exam.
 
 *Rajveer*: And don't miss the hacker mindset-building, focus on that because the actual exam will test that too.
 
-**Q5: How do you describe the overall exam experience?**
+**Q: How do you describe the overall exam experience?**
 
 *Punit*: The experience was good but I faced an issue while starting the exam as it does verification using examity and my verification got stuck on my second attempt however the Portswigger support helped me with this.  During my first attempt, I was let down by my performance as I underestimated it and the actual exam was challenging. Also during the second attempt, I got confused with one of the vulnerabilities which took me around half an hour to make it exploitable. It was great fun in the end to achieve success as you get to prove your capabilities which you would eventually apply during a client engagement.
 
