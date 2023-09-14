@@ -5,7 +5,7 @@ date: 2023-09-14 5:00:00 +0100
 categories: [Web Application Pentesting, Application Security, BSCP]
 tags: [BSCP, Application Security, Web Pentesting]
 image:
-  path: https://github.com/CognisysGroup/cognisysgroup.github.io/assets/25560539/0853b547-1904-44ec-b090-020e27df3101
+  path: https://github.com/CognisysGroup/cognisysgroup.github.io/assets/25560539/f49d9b83-d318-401d-a7fc-c99ea48c87d6
   alt: 
 render_with_liquid: false
 ---
