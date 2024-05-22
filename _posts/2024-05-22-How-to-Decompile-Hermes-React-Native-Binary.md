@@ -98,7 +98,7 @@ $ python3 hbc_disassembler.py ../index.android.bundle disassemreact
 
    6. Lets Decompile and get the pseudocode 
   
-```
+```bash
 $ hbc_decompiler.py ../index.android.bundle decompiledreact
 [+] Decompiled output wrote to "decompiledreact"
 ```
