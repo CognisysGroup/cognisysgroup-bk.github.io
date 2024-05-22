@@ -2,8 +2,8 @@
 title: How to Decompile a Hermes React Native Binary (Android Pentest)
 author: Punit
 date: 2024-05-22 04:04:00 +0100
-categories: [Web Application Pentesting, Case Study, XSS]
-tags: [application security, bypass, waf, XSS, web pentesting, javascript]
+categories: [Android Pentesting, Application Security]
+tags: [Android Pentesting, Application Security]
 image:
   path: https://github.com/CognisysGroup/cognisysgroup.github.io/assets/46415431/784fcc49-109c-41a5-99f8-9d0835acfde8
   alt: 
