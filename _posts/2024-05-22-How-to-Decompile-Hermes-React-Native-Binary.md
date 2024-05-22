@@ -77,7 +77,7 @@ The version number (e.g., version 94) is crucial because it signifies the specif
 - **Choosing the Right Tools**: Some decompilation tools, like `hermes-dec` by [@P1sec](https://github.com/P1sec/hermes-dec), must support specific Hermes versions to decompile the bytecode correctly. This tool might not support older versions, but for example, `hbctool` by [@bongtrop ](https://github.com/bongtrop/hbctool) supports versions 59, 62, 74, and 76.
 - **Understanding Bytecode Changes**: Different versions of Hermes can introduce changes in the bytecode format, which can affect how you analyse and interpret the decompiled code.
 
-### Step 4: Install Hermes decompile tool
+### Step 5: Install Hermes decompile tool
 
 4. **Decompile Hermes Bytecode**: Use `hermes-dec` to convert the Hermes bytecode back to JavaScript. Let's first set the `hermes-dec`
 
@@ -87,7 +87,7 @@ $ cd hermes-dec/
 $ python3 setup.py install
 ```
 
-### Step 5: Try to Disassemble and Decompile the Hermes Binary 
+### Step 6: Try to Disassemble and Decompile the Hermes Binary 
 
 5. While decompiling React Native applications typically involves extracting and analysing JavaScript code, applications using the Hermes engine require an additional step to handle the Hermes bytecode. Here's how you can disassemble and decompile the Hermes bytecode using **hermes-dec**:
 
