@@ -10,6 +10,7 @@ image:
 render_with_liquid: false
 ---
 
+
 **Introduction**
 
 Hack The Box (HTB) Prolab - _Dante_ offers a challenging and immersive environment for improving penetration testing skills. This is a Red Team Operator Level 1 lab. This lab demands expertise in pivoting, web application attacks, lateral movement, buffer overflow and exploiting various vulnerabilities. In this review, I'll share my experience, what I learned, the indispensable tools, and some aspects that I found less favourable.
