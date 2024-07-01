@@ -1,5 +1,5 @@
 ---
-title: Exploring HTB Prolab Dante: A Technical Review + Tips
+title: Exploring HTB Prolab Dante - A Technical Review + Tips
 author: Soham
 date: 2024-07-01 10:45:00 +0100
 categories: [HTB, Prolab, Dante]
