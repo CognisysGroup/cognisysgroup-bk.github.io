@@ -93,6 +93,3 @@ If you’re on the path, best of luck. You’re going to love it.
 
 <img width="1055" alt="Screenshot 2025-04-18 at 3 19 35 AM" src="https://github.com/user-attachments/assets/34c47ca1-bfd2-4d16-b6bd-c2c0aba429fc" />
 
-
-
-![[Pasted image 20250605135741.png]]
