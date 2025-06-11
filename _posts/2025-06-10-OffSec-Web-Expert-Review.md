@@ -10,7 +10,7 @@ image:
 render_with_liquid: false
 ---
 
-## Overview 
+## Overview
 
 Punit is a Managing Consultant at Cognisys Group, specialising in application security with a strong focus on offensive security and secure coding practices. With experience spanning multiple industry sectors, he brings a practical, hands-on perspective to his work. In this blog, he shares a detailed review of his preparation for the OSWE certification and insights from the exam experience.
 
